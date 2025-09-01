@@ -1,9 +1,9 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: rgb(50,120,100);
-    --secondary-color: #934a19;
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: #000000;
     --text-color: #333333;;
-    --background-color: #f4f4f4;
+    --background-color: #e1e1e1;
     --light-gray: #ecf0f1;
 }
 
@@ -51,8 +51,8 @@ body {
     cursor: pointer;
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
-    color: white;
-    border-radius: 5px;
+    color: #e1e1e1;
+    border-radius: 2px;
 }
 
 .accordion-nav summary::-webkit-details-marker {
@@ -82,7 +82,7 @@ body {
 
 /*Sección para cambiar color de las palabras en la barra de sección*/
 .nav-link {
-    color: rgb(93, 94, 32);
+    color: rgb(32, 41, 94);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -101,7 +101,7 @@ body {
 /*Color y tamaño del area para la foto de perfil y resumen*/
 .profile-section {
     padding-top: 100px; /* Espacio para el header fijo */
-    background-color: rgb(243, 243, 243);
+    background-color:#e1e1e1;
 }
 
 /*Tamaño del titulo para estudios y experiencia*/
@@ -117,7 +117,7 @@ body {
     content: '';
     display: block;
     width: 50%;
-    height: 4px;
+    height: 3px;
     background: var(--primary-color);
     margin: 10px auto 0;
 }
@@ -126,9 +126,9 @@ body {
 .profile-photo {
     width: 350px;
     height: 350px;
-    border-radius: 50%;
+    border-radius: 10%;
     object-fit: cover;
-    border: 20px solid #71ade6;
+    border: 10px solid #71ade6;
     margin-bottom: 1rem;
 }
 
@@ -136,7 +136,7 @@ body {
 .profile-name {
     font-size: 2.5rem;
     margin: 0.5rem 0;
-    color: #71ade6;
+    color: #a7d1f9;
 }
 
 .profile-summary {
@@ -153,7 +153,7 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: rgb(219, 171, 109);
+    background-color: rgb(110, 225, 191);
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -202,7 +202,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Efecto de otro color al pasar el mouse por el botón*/
 .linktree-link:hover {
-    background-color: #eee88f;
+    background-color: #47c479;
 }
 
 /* Contact Form */
